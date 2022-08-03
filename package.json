@@ -6,6 +6,6 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
-    "start": "node -r esm ./main.ts"
+    "start": "node -r esm ./main.js"
   }
 }
