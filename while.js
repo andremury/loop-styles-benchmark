@@ -26,6 +26,6 @@ async function withWhile() {
 
   p.then(() => {
     console.log("Unlocked with ", (Date.now() - start) / 1000, "s");
-    console.table(parse(benchmark, "while"));
+    console.table(parse(benchmark));
   });
 })();

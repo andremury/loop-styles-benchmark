@@ -32,6 +32,6 @@ async function withInterval() {
 
   p.then(() => {
     console.log("Unlocked with ", (Date.now() - start) / 1000, "s");
-    console.table(parse(benchmark, "interval"));
+    console.table(parse(benchmark));
   });
 })();

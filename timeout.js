@@ -32,6 +32,6 @@ function withTimeout() {
   const p = withTimeout();
   p.then(() => {
     console.log("Unlocked with ", (Date.now() - start) / 1000, "s");
-    console.table(parse(benchmark, "timeout"));
+    console.table(parse(benchmark));
   });
 })();
